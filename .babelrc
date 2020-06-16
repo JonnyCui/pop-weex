@@ -1,0 +1,20 @@
+{
+  "presets": [
+    "es2015",
+    "stage-0"
+  ],
+  "plugins": [
+    [
+      "component", {
+        "libraryName": "weex-ui",
+        "libDir": "packages",
+        "style": false
+    },
+      "import", {
+      "libraryName": "vant",
+      "libraryDirectory": "es",
+      "style": true
+    }
+    ]
+  ]
+}
